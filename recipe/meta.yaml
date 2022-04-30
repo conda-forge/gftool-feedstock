@@ -1,5 +1,5 @@
 {% set name = "gftool" %}
-{% set version = "0.10.1" %}
+{% set version = "0.11.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gftool-{{ version }}.tar.gz
-  sha256: 107e39fe89ccf730238002b0fed0191b9b56663f01bb2e740c975c9ffe518e7f
+  sha256: 4f408704f2ea5936cd21cc81651002cc2c1f9b15a89f83a58e89eeaffda3f379
 
 build:
   number: 0
@@ -24,7 +24,7 @@ requirements:
     - mpmath
     - numpy >=1.17.0
     - python >=3.7
-    - scipy
+    - scipy >=1.6.0
 
 test:
   imports:
