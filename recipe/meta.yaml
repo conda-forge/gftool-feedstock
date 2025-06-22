@@ -1,5 +1,5 @@
 {% set name = "gftool" %}
-{% set version = "0.11.0" %}
+{% set version = "0.11.1" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/gftool-{{ version }}.tar.gz
-  sha256: 4f408704f2ea5936cd21cc81651002cc2c1f9b15a89f83a58e89eeaffda3f379
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/gftool-{{ version }}.tar.gz
+  sha256: d10d1fb751a1cdd0e6385958f5528525d8cbfbc30acdae69d0f2d1b0ff2f9ba5
 
 build:
   number: 0
