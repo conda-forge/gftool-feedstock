@@ -20,6 +20,8 @@ requirements:
     - pip
     - pytest-runner
     - python {{ python_min }}
+    - setuptools >=64
+    - setuptools-scm
   run:
     - mpmath
     - numpy >=1.17.0
